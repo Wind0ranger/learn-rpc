@@ -1,4 +1,4 @@
-package org.example.bio;
+package org.example.learn.bio;
 
 import java.io.IOException;
 import java.io.InputStream;
