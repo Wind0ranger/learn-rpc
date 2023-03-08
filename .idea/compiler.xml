@@ -6,8 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="learn-rpc" />
+        <module name="irpc-framework-interface" />
+        <module name="irpc-framework-core" />
+        <module name="irpc-framework-provider" />
+        <module name="irpc-framework-consumer" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="iprc-framework-consumer" target="1.8" />
+      <module name="iprc-framework-core" target="1.8" />
+      <module name="iprc-framework-interface" target="1.8" />
+      <module name="iprc-framework-provider" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
